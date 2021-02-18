@@ -40,7 +40,7 @@ counter = 1
 brothers.each do |brother|
   puts "This is loop number #{counter}"
   brother.upcase
-  puts "Stop hitting yourself #{brother}!"
+  puts "Stop hitting yourself #{brother.upcase}!"
   counter += 1
 end
 
