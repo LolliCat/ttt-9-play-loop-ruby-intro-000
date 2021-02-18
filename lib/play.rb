@@ -35,6 +35,15 @@ def turn(board)
   end
 end
 
+brothers = ["Tim", "Tom", "Jim"]
+counter = 1
+brothers.each do |brother|
+  puts "This is loop number #{counter}"
+  brother.upper
+  puts "Stop hitting yourself #{brother}!"
+  counter += 1
+end
+
 # Define your play method below
 def play(board)
   round = 1
